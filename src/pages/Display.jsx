@@ -54,7 +54,6 @@ export default function Display() {
         overflow: "hidden",
       }}
     >
-      {/* Injecting keyframes for the card entry animation */}
       <style>
         {`
           @keyframes slideIn {
@@ -69,7 +68,6 @@ export default function Display() {
         `}
       </style>
 
-      {/* Non-intrusive Audio Setup Banner */}
       {!isReady && (
         <div
           style={{
@@ -121,7 +119,6 @@ export default function Display() {
         </div>
       )}
 
-      {/* Main Content */}
       <div
         style={{
           display: "flex",
@@ -153,7 +150,6 @@ export default function Display() {
           </h1>
         </div>
 
-        {/* 👇 Font size, padding, dan margin di-resize biar pas di layar 👇 */}
         <div
           style={{
             backgroundColor: "#ffffff",
@@ -179,7 +175,6 @@ export default function Display() {
           </h2>
         </div>
 
-        {/* Redesigned History Row */}
         <div
           style={{
             display: "flex",
@@ -202,7 +197,6 @@ export default function Display() {
             Recent Calls
           </span>
 
-          {/* 👇 Padding kotak history sedikit dikecilin 👇 */}
           <div
             style={{
               display: "flex",

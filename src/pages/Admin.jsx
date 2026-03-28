@@ -40,7 +40,6 @@ export default function Admin() {
           overflow: "hidden",
         }}
       >
-        {/* Header with Status Indicator */}
         <div
           style={{
             padding: "1.5rem 2rem",
@@ -121,7 +120,6 @@ export default function Admin() {
           </div>
         </div>
 
-        {/* Main Interface */}
         <div
           style={{
             padding: "2.5rem 2rem",
